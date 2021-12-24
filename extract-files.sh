@@ -41,6 +41,10 @@ function blob_fixup() {
             # 00 f0 20 e3  # nop
             sed -i 's|\x18\x10\x90\xe5\x58\xb0\x01\xeb|\x18\x10\x90\xe5\x00\xf0\x20\xe3|g' "${2}"
             ;;
+        vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so)
+            hexdump -ve '1/1 "%.2X"' "${2}" | sed "s/210080529A0A0094/210080521F2003D5/g" | xxd -r -p > "${TMPDIR}/${1##*/}"
+            mv "${TMPDIR}/${1##*/}" "${2}"
+            ;;
     esac
 }
 
