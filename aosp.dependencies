@@ -9,5 +9,10 @@
     "target_path": "vendor/xiaomi",
     "branch": "twelve",
     "remote": "pixel-devices-blobs"
+  },
+  {
+    "repository": "kernel_xiaomi_vangogh",
+    "target_path": "kernel/xiaomi/sm7250",
+    "branch": "twelve"
   }
 ]
