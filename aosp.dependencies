@@ -6,7 +6,7 @@
   },
   {
     "repository": "vendor_xiaomi_vangogh",
-    "target_path": "vendor/xiaomi",
+    "target_path": "vendor/xiaomi/vangogh",
     "branch": "twelve",
     "remote": "pixel-devices-blobs"
   },
