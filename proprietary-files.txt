@@ -71,15 +71,15 @@ vendor/etc/cirrus.cfg
 # Audio hardware
 vendor/lib/hw/audio.primary.lito.so
 vendor/lib/vndk/libxlog.so
-vendor/lib/liba2dpoffload.so
 vendor/lib/libaudio_log_utils.so
 vendor/lib/libaudioroute_ext.so
 vendor/lib/vendor.qti.hardware.audiohalext@1.0.so
 vendor/lib64/hw/audio.primary.lito.so
-vendor/lib64/liba2dpoffload.so
 vendor/lib64/libaudio_log_utils.so
 vendor/lib64/libaudioroute_ext.so
 vendor/lib64/vendor.qti.hardware.audiohalext@1.0.so
+vendor/lib/liba2dpoffload.so
+vendor/lib64/liba2dpoffload.so
 
 # Camera
 system/lib/libcameraservice.so|f78245eaa15c2065a03d31d96ed22694969963e4
