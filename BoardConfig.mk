@@ -19,3 +19,5 @@ TARGET_KERNEL_CONFIG := vendor/vangogh_user_defconfig
 
 # Inherit from the proprietary version
 include vendor/xiaomi/vangogh/BoardConfigVendor.mk
+
+TARGET_KERNEL_LLVM_BINUTILS := false
