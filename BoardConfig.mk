@@ -21,3 +21,4 @@ TARGET_KERNEL_CONFIG := vendor/vangogh_user_defconfig
 include vendor/xiaomi/vangogh/BoardConfigVendor.mk
 
 TARGET_KERNEL_LLVM_BINUTILS := false
+TARGET_KERNEL_CLANG_VERSION := vangogh
