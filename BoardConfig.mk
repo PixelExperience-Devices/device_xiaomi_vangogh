@@ -11,6 +11,7 @@ DEVICE_PATH := device/xiaomi/vangogh
 
 BUILD_BROKEN_DUP_RULES := true
 
+
 # Display
 TARGET_SCREEN_DENSITY := 440
 
@@ -22,3 +23,5 @@ include vendor/xiaomi/vangogh/BoardConfigVendor.mk
 
 TARGET_KERNEL_LLVM_BINUTILS := false
 TARGET_KERNEL_CLANG_VERSION := vangogh
+
+
